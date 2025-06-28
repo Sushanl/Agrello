@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+PyPDF2
+openai
+# For testing
+requests # TestClient dependency, though often included with fastapi[all]
+python-multipart # For File uploads in FastAPI tests
